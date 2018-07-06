@@ -13,7 +13,7 @@ class App < Sinatra::Base
 
   post '/checkout' do
     session = params
-
+    session.to_s
     #erb :checkout
   end
 end
